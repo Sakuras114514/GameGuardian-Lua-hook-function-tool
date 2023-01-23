@@ -124,4 +124,6 @@ while true do
 	if (gg.isClickedUiButton()) then
 		main()
 	end
+	-- 防止一直占用cpu
+	gg.sleep(50)
 end
